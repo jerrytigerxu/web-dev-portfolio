@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-x0i^p_u^twpu_-23r0+w%^9m+43(s%pgw!x7_y00$=1pcyl0uc'
+#SECRET_KEY = 'django-insecure-x0i^p_u^twpu_-23r0+w%^9m+43(s%pgw!x7_y00$=1pcyl0uc'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -130,5 +130,6 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
 import django_heroku
 django_heroku.settings(locals())
